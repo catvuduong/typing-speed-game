@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "typing-speed-game",
-  description: "typing-speed-game",
+  title: "Typing Speed",
+  description: "A minimal typing speed test with live stats and a local leaderboard.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
